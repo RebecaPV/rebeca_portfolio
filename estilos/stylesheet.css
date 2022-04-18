@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*NAV Y FOOTER GENERAL*/
+
+.navegation{
+    background-color:rgba(255, 255, 255, 0.767);
+}
+
+.nav-item{
+    font-family: Metropolis light;
+    color: #525252;
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    color: rgb(254,107,0)
+}
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.767);
+}
+.footertext{
+    font-family: Metropolis light;
+    color: #525252;
+    padding-top: 1rem;
+}
+
+.body{
+    background-image: 
+    url(https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg?t=st=1647833830~exp=1647834430~hmac=9a5efc7f870036731c709bf0d30774ea9b7049b6d9d603c3c4248db839cd23f7&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-section{
+    color: rgb(254,107,0);
+    font-family: Metropolis light;
+}
+/*INDEX*/
+
+header{
+    display: block;
+}
+.masthead{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: 
+    url(../multimedia/profile.jpg);
+    max-width: 100%;
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+   
+}
+
+.masthead-heading{
+    font-size: 3.5rem;
+    line-height:6rem;
+    margin-bottom: 20rem;
+    font-family:Metropolis b;
+    color: rgb(255, 255, 255);
+}
+.profile{
+    flex-wrap: wrap;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.introduction{
+    background-color: rgb(255, 255, 255);
+    font-family: Metropolis light;
+    color:#525252;
+    margin-top: 30rem;
+}
+.logocontent{
+    padding: 2rem;
+}
+.masthead-subheading{
+    font-size: 1rem;
+    line-height: 2.25rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+/*PORTFOLIO*/
+
+.row-items{
+    --bs-gutter-x:1.5rem;
+    --bs-gutter-y:0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-0.5* var(--bs-gutter-x));
+    margin-left: calc(-0.5* var(--bs-gutter-x));
+}
+
+.mb4{
+    margin-bottom: 1.5rem;
+}
+
+.portfolio-item{
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-link{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio-hover{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 106, 0, 0.50);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+    transition-property: opacity;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.img-fluid{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.img,svg{
+    vertical-align: middle;
+}
+
+svg:not(:host) .svg-inline--fa, svg:not(:root) .svg-inline--fa{
+overflow: visible;
+box-sizing: content-box;
+}
+
+.fa3x{
+    font-size: 3em;
+}
+
+.svg-inline--fa{
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+
+}
+
+.portfolio-caption{
+    padding: 1.5rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.portfolio-caption-heading{
+    font-size: 1rem;
+    font-family: Metropolis regular;
+    font-weight: 100;
+    margin-bottom: 0;
+    color: rgb(254,107,0);
+}
+
+.portfolio-caption-subheading{
+    font-family: Metropolis light;
+
+}
+
+.text-muted{
+    --bs-text-opacity:1;
+    color: #525252;
+}
+
+
+/* *, *::before, *::after{
+    box-sizing: border-box;
+} */ 
+
+/*EXPERIENCE*/
+
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.timeline{
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+ol, ul ,dl{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul{
+    display: block;
+}
+
+h4{
+    margin-top: 0;
+    color: #525252;
+    font-family: Metropolis regular;
+    
+}
+
+.year{
+    color: rgb(254,107,0);
+    font-family: Metropolis b;
+}
+
+.text-muted{
+    --bs-text-opacity:1;
+    color: #525252;
+}
+
+p{
+    line-height:1.75;
+    margin-top: 0;
+}
+
+/*PROFESSIONAL*/
+.table{
+    background-image: 
+    url(../estilos/photography-ideas-creative-occupation-design-studio-concept.png);
+    background-size: cover;
+
+}
+
+td{
+    font-family: Metropolis b;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+/*CONTACT*/
+
+.buttonsend{
+    text-align: center;
+    padding: 5px;
+    color: #525252;
+    border-style: outset;
+    border-color: #ff5733;
+    border-width: 2px;
+    font-family:  Metropolis regular;
+}
