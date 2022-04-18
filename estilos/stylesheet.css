@@ -235,6 +235,7 @@ h4{
 p{
     line-height:1.75;
     margin-top: 0;
+    font-family: Metropolis regular;
 }
 
 /*PROFESSIONAL*/
@@ -251,6 +252,12 @@ td{
     color: rgb(255, 255, 255);
 }
 /*CONTACT*/
+
+.formm{
+    font-family: Metropolis light;
+    margin: 1rem;
+
+}
 
 .buttonsend{
     text-align: center;
