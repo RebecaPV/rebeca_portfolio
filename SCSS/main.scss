@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0
+}
+
+@import "_variables";
+@import "_index";
+@import "_experience";
+@import "_professional";
+
+/*NAV Y FOOTER*/
+
+
+.navegation {
+    background-color: $colornav;
+    a{
+        font-family: $fontlight;
+        color: $fontcolor;
+        text-decoration: none;
+        & :hover{
+            color: $fontcolor2;
+        }
+    }
+}
+
+.footer{
+    background-color: $colornav;
+    .footertext{
+        font-family: $fontlight;
+        color: $fontcolor;
+        padding-top: 1rem;
+    }
+}
+
+.body{
+    background-image: url(https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg?t=st=1647833830~exp=1647834430~hmac=9a5efc7f870036731c709bf0d30774ea9b7049b6d9d603c3c4248db839cd23f7&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-section{
+    color:$fontcolor2;
+    font-family: $fontlight;
+}
+
+header{
+    display: block;
+}

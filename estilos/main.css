@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*VARIABLES*/
+/*INDEX*/
+.masthead {
+  text-align: center;
+  color: white;
+  background-image: url(../multimedia/profile.jpg);
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center; }
+  .masthead .masthead-heading {
+    font-size: 3.5rem;
+    line-height: 6rem;
+    margin-bottom: 20rem;
+    font-family: Metropolis b; }
+    .masthead .masthead-heading .text-uppercase {
+      text-transform: uppercase; }
+  .masthead .introduction {
+    background-color: white;
+    font-family: Metropolis light;
+    color: #525252;
+    margin-top: 30rem; }
+    .masthead .introduction .logocontent {
+      padding: 2rem; }
+    .masthead .introduction .masthead-subheading {
+      font-size: 1rem;
+      line-height: 2.25rem;
+      margin-top: 2rem;
+      padding: 1rem; }
+
+.profile {
+  flex-wrap: wrap; }
+
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto; }
+  .container .textcenter {
+    text-align: center; }
+
+.timeline {
+  position: relative;
+  padding: 0;
+  list-style: none; }
+  .timeline ol, .timeline ul, .timeline dl {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+    .timeline ol ul, .timeline ul ul, .timeline dl ul {
+      display: block; }
+  .timeline .year {
+    color: #fe6b00;
+    font-family: Metropolis b; }
+  .timeline h4 {
+    margin-top: 0;
+    color: #525252;
+    font-family: Metropolis regular; }
+    .timeline h4 .text-muted {
+      --bs-text-opacity:1;
+      color: #525252; }
+  .timeline p {
+    line-height: 1.75;
+    margin-top: 0;
+    font-family: Metropolis regular; }
+
+/*PROFESSIONAL*/
+.table {
+  background-image: url(../estilos/photography-ideas-creative-occupation-design-studio-concept.png);
+  background-size: cover; }
+  .table .td {
+    font-family: Metropolis b;
+    font-size: 1rem;
+    color: white; }
+
+/*NAV Y FOOTER*/
+.navegation {
+  background-color: rgba(255, 255, 255, 0.767); }
+  .navegation a {
+    font-family: Metropolis light;
+    color: #525252;
+    text-decoration: none; }
+    .navegation a :hover {
+      color: #fe6b00; }
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.767); }
+  .footer .footertext {
+    font-family: Metropolis light;
+    color: #525252;
+    padding-top: 1rem; }
+
+.body {
+  background-image: url(https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg?t=st=1647833830~exp=1647834430~hmac=9a5efc7f870036731c709bf0d30774ea9b7049b6d9d603c3c4248db839cd23f7&w=1060);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.page-section {
+  color: #fe6b00;
+  font-family: Metropolis light; }
+
+header {
+  display: block; }

@@ -1,0 +1,41 @@
+/*INDEX*/
+
+.masthead{
+    text-align: center;
+    color:$color2;
+    background-image: url(../multimedia/profile.jpg);
+    max-width:  100%;
+    max-height:  100%;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    .masthead-heading{
+        font-size: $titlesize;
+        line-height: 6rem;
+        margin-bottom: 20rem;
+        font-family: $fontbold;
+        .text-uppercase{
+            text-transform: uppercase;
+        }
+    }
+    .introduction{
+        background-color: $color2;
+        font-family: $fontlight;
+        color: $fontcolor;
+        margin-top:30rem;
+        .logocontent{
+            padding: 2rem;
+        }
+        .masthead-subheading{
+            font-size: 1rem;
+            line-height: 2.25rem;
+            margin-top: 2rem;
+            padding: 1rem;
+        }
+    }
+}
+
+.profile{
+    flex-wrap:wrap;
+}
+

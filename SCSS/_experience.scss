@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    .textcenter{
+        text-align: center;
+    }
+}
+
+.timeline{
+    position: relative;
+    padding: 0;
+    list-style: none;
+    ol,ul,dl{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        ul{
+            display: block;
+        }
+    }
+    .year{
+        color: $fontcolor2;
+        font-family: $fontbold;
+    }
+    h4{
+        margin-top: 0;
+        color: $fontcolor;
+        font-family: $fontregular;
+        
+        .text-muted{
+            --bs-text-opacity:1;
+            color:$fontcolor
+        }
+    }
+    p{line-height: 1.75;
+    margin-top: 0;
+    font-family: $fontregular; 
+    }
+}
