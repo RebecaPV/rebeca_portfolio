@@ -6,9 +6,9 @@
     background-image: url(../multimedia/profile.jpg);
     max-width:  100%;
     max-height:  100%;
-    background-repeat:no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
+    background-repeat:map-get($back,background-repeat );
+    background-attachment:map-get($back, background-attachment );
+    background-position: map-get($back, background-position );
     .masthead-heading{
         font-size: $titlesize;
         line-height: 6rem;

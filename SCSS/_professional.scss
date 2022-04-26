@@ -2,7 +2,7 @@
 
 .table{
     background-image: url(../estilos/photography-ideas-creative-occupation-design-studio-concept.png);
-    background-size: cover;
+    background-size: map-get($map: back, $key:background-size );
     .td{
         font-family: $fontbold;
         font-size: 1rem;

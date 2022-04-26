@@ -8,6 +8,20 @@
 @import "_experience";
 @import "_professional";
 
+$back: /*Declaracion de mapa*/
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center center;
+background-color: $colornav;
+background-size:cover;
+
+/*MIXINS*/
+
+@mixin sizes ($width,$height) {
+    max-width:100%;
+    max-height:100%
+}
+
 /*NAV Y FOOTER*/
 
 
@@ -34,8 +48,8 @@
 
 .body{
     background-image: url(https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg?t=st=1647833830~exp=1647834430~hmac=9a5efc7f870036731c709bf0d30774ea9b7049b6d9d603c3c4248db839cd23f7&w=1060);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:map-get($map: back, $key:background-repeat );
+    background-size: map-get($map: back, $key:background-size);
 }
 
 .page-section{
