@@ -17,12 +17,12 @@
     font-size: 3.5rem;
     line-height: 6rem;
     margin-bottom: 20rem;
-    font-family: Metropolis b; }
+    font-family: "Metropolis b"; }
     .masthead .masthead-heading .text-uppercase {
       text-transform: uppercase; }
   .masthead .introduction {
     background-color: white;
-    font-family: Metropolis light;
+    font-family: "Metropolis light";
     color: #525252;
     margin-top: 30rem; }
     .masthead .introduction .logocontent {
@@ -60,14 +60,14 @@
   .timeline h4 {
     margin-top: 0;
     color: #525252;
-    font-family: Metropolis regular; }
+    font-family: "Metropolis regular"; }
     .timeline h4 .text-muted {
       --bs-text-opacity:1;
       color: #525252; }
   .timeline p {
     line-height: 1.75;
     margin-top: 0;
-    font-family: Metropolis regular; }
+    font-family: "Metropolis regular"; }
 
 /*PROFESSIONAL*/
 .table {
@@ -82,7 +82,7 @@
 .navegation {
   background-color: rgba(255, 255, 255, 0.767); }
   .navegation a {
-    font-family: Metropolis light;
+    font-family: "Metropolis light";
     color: #525252;
     text-decoration: none; }
     .navegation a :hover {
@@ -91,7 +91,7 @@
 .footer {
   background-color: rgba(255, 255, 255, 0.767); }
   .footer .footertext {
-    font-family: Metropolis light;
+    font-family: "Metropolis light";
     color: #525252;
     padding-top: 1rem; }
 
@@ -102,7 +102,7 @@
 
 .page-section {
   color: #fe6b00;
-  font-family: Metropolis light; }
+  font-family: "Metropolis light"; }
 
 header {
   display: block; }

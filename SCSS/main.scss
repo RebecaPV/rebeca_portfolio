@@ -31,10 +31,12 @@ background-size:cover;
         font-family: $fontlight;
         color: $fontcolor;
         text-decoration: none;
-        & :hover{
-            color: $fontcolor2;
-        }
+        
     }
+}
+
+.hover-menu :hover{
+    color: $fontcolor2;
 }
 
 .footer{
