@@ -5,8 +5,10 @@
 
 @import "_variables";
 @import "_index";
+@import "_portfolio";
 @import "_experience";
 @import "_professional";
+
 
 $back: /*Declaracion de mapa*/
 background-repeat: no-repeat;
@@ -14,7 +16,6 @@ background-attachment: scroll;
 background-position: center center;
 background-color: $colornav;
 background-size:cover;
-
 /*MIXINS*/
 
 @mixin sizes ($width,$height) {
@@ -37,6 +38,10 @@ background-size:cover;
 
 .hover-menu :hover{
     color: $fontcolor2;
+}
+
+.nav-item :hover{
+    color:$fontcolor2
 }
 
 .footer{
