@@ -1,5 +1,10 @@
 /*PROFESSIONAL*/
 
+td{
+    font-family:$fontbold;
+    font-size: 1rem;
+    color:$color2;
+}
 .table{
     background-image: url(../estilos/photography-ideas-creative-occupation-design-studio-concept.png);
     background-size: map-get($map: back, $key:background-size );
@@ -8,4 +13,10 @@
         font-size: 1rem;
         color: $color2;
     }
+}
+
+.tr .th .td {
+    font-family: $fontbold;
+        font-size: 1rem;
+        color: $color2;
 }

@@ -110,6 +110,11 @@ img, svg {
     color: $fontcolor;
 }
 
+.col-lg-4 .col-sm-6 .mb-4 .portfolio-item {
+    height: 400px;
+    width: 400px;
+    padding: 5%;
+}
 
 @media (min-width: 576px)
 {.col-sm-6;}

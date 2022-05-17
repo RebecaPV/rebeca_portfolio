@@ -256,7 +256,14 @@ td{
 .formm{
     font-family: Metropolis light;
     margin: 1rem;
+    justify-content:center;
+    max-width: 100%;
+}
 
+.input .contactinp{
+    justify-content: center;
+    justify-items: center;
+    max-width: 50rem;
 }
 
 .buttonsend{

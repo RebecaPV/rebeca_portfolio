@@ -11,11 +11,12 @@
 
 
 $back: /*Declaracion de mapa*/
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-position: center center;
-background-color: $colornav;
-background-size:cover;
+(background-repeat: no-repeat,
+background-attachment: scroll,
+background-position: center center,
+background-color: $colornav,
+background-size:cover,)
+
 /*MIXINS*/
 
 @mixin sizes ($width,$height) {
@@ -66,4 +67,23 @@ background-size:cover;
 
 header{
     display: block;
+} 
+
+/*CONTACT*/
+.formm{
+    font-family: $fontlight;
+    margin: 1rem;
+    justify-content: center;
+    justify-items: center;
+    max-width: 100%;
+}
+
+.buttonsend{
+    text-align: center;
+    padding: 5px;
+    color: $fontcolor;
+    border-style: outset;
+    border-color: $fontcolor2;
+    border-width: 2px;
+    font-family: $fontregular;
 }
